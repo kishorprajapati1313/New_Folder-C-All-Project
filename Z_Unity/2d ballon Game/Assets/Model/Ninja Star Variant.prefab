@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7393904943126564260
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4106546228241735795, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_Name
+      value: Ninja Star
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.55393
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999464
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0032933005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.377
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106546228241735799, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+--- !u!1 &6800733776528928215 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4106546228241735795, guid: e9cdb2b99607fbe42b56bd8986fe920b, type: 3}
+  m_PrefabInstance: {fileID: 7393904943126564260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1446749341
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6800733776528928215}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 5
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 10
+  m_Material: {fileID: 6200000, guid: 707ffc741b5e82547b54dbae57a4e733, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!68 &1446749342
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6800733776528928215}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.24474788, y: -2.0544004}
+  - {x: -2.0175657, y: -0.3828957}
+  - {x: -0.2873752, y: 2.3905754}
+  - {x: 2.2579396, y: 0.14941144}
+  - {x: 0.20349288, y: -2.0917537}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &1446749332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6800733776528928215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b412d4bede89245a59f10fdfd0c09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  edge: {fileID: 0}

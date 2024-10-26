@@ -1,0 +1,9 @@
+check the Battery Life:- powercfg /batteryreport        file:///C:/Windows/System32/battery-report.html    //Check for batterylife of laptop
+
+
+Check for the laptop information:- dxdiag //Check for the laptop information
+
+
+correpted file:- DISM /Online /Cleanup-Image /CheckHealth          //check there is any correpted file in laptop
+
+Delete the correpted file:- sfc /scannow

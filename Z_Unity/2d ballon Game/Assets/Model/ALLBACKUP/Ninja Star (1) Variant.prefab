@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8266403844113789946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1449373974, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449373974, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449373974, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.081
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9996294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.027223766
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950442, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 3.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950444, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950446, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_Name
+      value: Ninja Star (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305338472484950446, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e943dad1ff9d9b348b39cc7ea932a30f, type: 3}

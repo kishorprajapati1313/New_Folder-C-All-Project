@@ -1,0 +1,5 @@
+C:/Z_Unity/p1_t1_2D_game/.utmp/RelWithDebInfo/3q5g1n40/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Z_Unity/p1_t1_2D_game/.utmp/RelWithDebInfo/3q5g1n40/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Z_Unity/p1_t1_2D_game/.utmp/RelWithDebInfo/3q5g1n40/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Z_Unity/p1_t1_2D_game/.utmp/RelWithDebInfo/3q5g1n40/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Z_Unity/p1_t1_2D_game/.utmp/RelWithDebInfo/3q5g1n40/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

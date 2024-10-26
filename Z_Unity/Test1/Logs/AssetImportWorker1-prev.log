@@ -1,0 +1,370 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.19f1 (95c298372b1e) revision 9814680'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8070 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Z_Unity/Test1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50700
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Z_Unity/Test1
+C:/Z_Unity/Test1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6912] Host "[IP] 192.168.43.40 [Port] 0 [Flags] 2 [Guid] 3577183625 [EditorId] 3577183625 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OU0JL4L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6912] Host "[IP] 192.168.43.40 [Port] 0 [Flags] 2 [Guid] 3577183625 [EditorId] 3577183625 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OU0JL4L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1512.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.19f1 (95c298372b1e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Z_Unity/Test1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.144936 seconds.
+- Loaded All Assemblies, in  4.729 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1972 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.703 seconds
+Domain Reload Profiling: 7426ms
+	BeginReloadAssembly (3651ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (176ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (260ms)
+	LoadAllAssembliesAndSetupDomain (611ms)
+		LoadAssemblies (3649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (602ms)
+			TypeCache.Refresh (599ms)
+				TypeCache.ScanAssembly (564ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2586ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2203ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Z_Unity\Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Z_Unity\Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 24.246 seconds
+Refreshing native plugins compatible for Editor in 52.79 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.87 ms, found 4 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.468 seconds
+Domain Reload Profiling: 26704ms
+	BeginReloadAssembly (6176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (17798ms)
+		LoadAssemblies (16018ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2047ms)
+			TypeCache.Refresh (1930ms)
+				TypeCache.ScanAssembly (514ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1809ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (99ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (1373ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 2.09 seconds
+Refreshing native plugins compatible for Editor in 16.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5141 unused Assets / (1.7 MB). Loaded Objects now: 5733.
+Memory consumption went from 119.7 MB to 117.9 MB.
+Total: 20.085500 ms (FindLiveObjects: 0.941700 ms CreateObjectMapping: 2.550200 ms MarkObjects: 11.261900 ms  DeleteObjects: 5.329200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7237.446610 seconds.
+  path: Assets/_Prefeb/Main Camera.prefab
+  artifactKey: Guid(db50fe71c52b65f4eadbc6c352e164bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/Main Camera.prefab using Guid(db50fe71c52b65f4eadbc6c352e164bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e57fe89e60207b8d30982eae315a36') in 0.1545957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/DefaultPrefabObjects.asset
+  artifactKey: Guid(0ac79ff581641e847a97977cec0610ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultPrefabObjects.asset using Guid(0ac79ff581641e847a97977cec0610ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1539bb098ae686ffecbc968ebe9547e6') in 0.2309879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Prefeb/JoySticks.prefab
+  artifactKey: Guid(d095a729621bb8141abebf71c6b14dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/JoySticks.prefab using Guid(d095a729621bb8141abebf71c6b14dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8add399c046c1281fa1c784e23e5421') in 0.0902688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3c13e79cb4b62724769a29d757941db') in 0.0522422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Prefeb/Player.prefab
+  artifactKey: Guid(105eeadd52253384f8a1316647917c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/Player.prefab using Guid(105eeadd52253384f8a1316647917c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e6c019231d4f7c2de4c7fdc8ae8bf88') in 1.5186224 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Prefeb
+  artifactKey: Guid(a354ab300c354a64d832fc588942811f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb using Guid(a354ab300c354a64d832fc588942811f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e114a4af93c694e3fcce1b13726fb2c8') in 0.0008896 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/_Prefeb/Health.prefab
+  artifactKey: Guid(894b6f210fd54944587b3c1edbd57a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/Health.prefab using Guid(894b6f210fd54944587b3c1edbd57a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ff5ae10b4588a380a2fc55c058d46c8') in 0.5148099 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.873597 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c85e963d2df1039f8e8917f36197419') in 0.006658 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.396377 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe1c1fe628d6b512dc4feb0d1fd626c') in 0.0043804 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.710778 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cff8ac24b467aa6331e8adb2ce028166') in 0.0056277 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.150216 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b6467b85449085d6aba917db290b7b4') in 0.0056186 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.081767 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bcbfed7fa64e78c956bea8a2000d9e0') in 0.0046768 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 388.846639 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3c2f857e0051dc68186467107123e57') in 0.0433017 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.192968 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f55f189013e60fc9a799f906e200962a') in 0.0126944 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.969735 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '483640a71aededaeedb73a6782eaa50b') in 0.0052548 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.311475 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3468ca335026f3692d5622c3e44af898') in 0.0048639 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.007452 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '279fafd9e94ebcbbfec2cf843796b57a') in 0.005175 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.810864 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36a39fd93a172632694103ce6e873549') in 0.0051486 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.992976 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '712a3d398ddc7a99c75486079d499918') in 0.0046873 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.358246 seconds.
+  path: Assets/_Prefeb/PlayerControll.prefab
+  artifactKey: Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefeb/PlayerControll.prefab using Guid(d13ab4b7975625a43864be56de3442aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42082a1d076ac81442ef4f53a74cb01a') in 0.0044386 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+

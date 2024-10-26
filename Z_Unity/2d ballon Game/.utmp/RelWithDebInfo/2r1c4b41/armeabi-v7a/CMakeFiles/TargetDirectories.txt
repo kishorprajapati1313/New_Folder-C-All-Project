@@ -1,0 +1,5 @@
+C:/Z_Unity/2d ballon Game/.utmp/RelWithDebInfo/2r1c4b41/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Z_Unity/2d ballon Game/.utmp/RelWithDebInfo/2r1c4b41/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Z_Unity/2d ballon Game/.utmp/RelWithDebInfo/2r1c4b41/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Z_Unity/2d ballon Game/.utmp/RelWithDebInfo/2r1c4b41/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Z_Unity/2d ballon Game/.utmp/RelWithDebInfo/2r1c4b41/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
